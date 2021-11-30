@@ -1,0 +1,209 @@
+/* tamaño general de la página y su color gradiente */
+
+body {
+	margin: auto;
+	width: 1250px;
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 100%, rgba(0,212,255,1) 100%);
+}
+
+/* la cabecera */
+
+header {
+	background-color: #00042B;
+	padding: 50px;
+}
+
+/* los enalces de la cabecera */
+
+header a {
+	color: grey;
+	text-decoration: none;
+	font-family: verdana;
+	font-size: 15px;
+	padding-left: 13px;
+}
+
+/* los enlaces de la cabecera al poner el ratón por encima */
+
+header a:hover {
+	color: white;
+	transition-duration: 450ms;
+}
+
+/* logo de steam */
+
+.steam_logo {
+	float: left;
+	width: 180px;
+	margin-top: 37px;
+	margin-left: 150px;
+}
+
+/* menu pequeño de la página para iniciar sesión... */
+
+.mini_menu {
+	float: right;
+	margin-right: 10px;
+	margin-top: 0;
+}
+
+/* separador "|" */
+
+.mini_menu p{
+	display: inline-block;
+	color: lightgrey;
+}
+
+/* enlaces del menu pequeño */
+
+.mini_menu a {
+	color: lightgrey;
+	text-decoration: none;
+	padding-left: 13px;
+	padding-right: 13px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+/* color de el botón de instalación */
+
+.mini_menu .install {
+	background-color: green;
+}
+
+/* color de el botón de instalación al pasar el ratón */
+
+.mini_menu .install:hover {
+	color: white;
+	background-color: darkgreen;
+	transition-duration: 400ms;
+}
+
+/* cambio de color en las letras al pasar el ratón */
+
+.mini_menu a:hover {
+	color: white;
+	transition-duration: 400ms;
+}
+
+/* barra de navegación */
+
+nav {
+	margin-left: 140px;
+	margin-right: 140px;
+	margin-top: 30px;
+	padding: 12px;
+	background: linear-gradient(80deg, rgba(10,182,203,1) 0%, rgba(13,3,173,1) 100%);
+}
+
+/* enlaces de la barra de navegación */
+
+nav a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-family: arial;
+	font-size: 13px;
+	padding-left: 16px;
+	margin-right: 10px;
+}
+
+/* color de botones del menú al pasar por encima */
+
+nav .select:hover {
+	transition-duration: 1s;
+	background-color: lightblue;
+	padding: 10px;
+	color: black;
+}
+
+/* barra de búsqueda (no funciona solo estilo) */
+
+nav .buscar {
+	color: black;
+	font-style: italic;
+	margin-left: 100px;
+	padding-right: 100px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border: black 1px solid;
+	background-color: #034F72;
+}
+
+/* título de la sección */
+
+section p {
+	color: lightgrey;
+	margin-left: 150px;
+	font-family: arial;
+	font-size: 20px;
+}
+
+/* div del juego */
+
+.juego {
+	background: blue;
+	margin-left: 140px;
+	margin-right: 140px;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+
+/* div del juego al pasar por encima */
+
+.juego:hover {
+	background-color: #020094;
+	color: white;
+	transition-duration: 500ms;
+}
+
+/* imagen del juego */
+
+.juego img {
+	width: 100px;
+	margin-left: 20px;
+	float: left;
+}
+
+/* enlace del juego */
+
+.juego a {
+	text-decoration: none;
+	color: lightgrey;
+	margin: 0;
+	margin-left: 10px;
+	font-size: 12px;
+	float: left;
+	margin-top: 12px;
+	font-family: arial;
+}
+
+/* texto del juego (fecha y precio) */
+
+.juego p {
+	display: inline-block;
+	color: white;
+	font-size: 12px;
+	margin-left: 180px;
+	font-family: arial;
+}
+
+footer {
+	color: white;
+}
+
+footer .valve {
+	float: left;
+	width: 100px;
+}
+
+footer .steamfooter {
+	float: right;
+}
+
+footer p {
+	font-size: 13px;
+	padding-top: 40px;
+	margin-left: 100px;
+	margin-right: 70px;
+}
